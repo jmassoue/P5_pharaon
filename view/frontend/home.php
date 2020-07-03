@@ -80,8 +80,8 @@
 		<h2>Découvrez nos soirées</h2>
 		<h3>danses, musiques et contes</h3>
 		<div class="container">
-			<div class="party">
-				<video class='danse' src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-danse-oriental-le-temple-du-pharaon-Brest.mp4" controls controlslist="nodownload"></video>
+			<div class="slide">
+				<video class='active' src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-danse-oriental-le-temple-du-pharaon-Brest.mp4" controls controlslist="nodownload"></video>
 				<video class='music' src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-musique-le-temple-du-pharaon-brest.mp4" controls controlslist="nodownload"></video>
 				<video class='music' src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-contes-le-temple-du-pharaon-brest.mp4#t=,30" controls controlslist="nodownload"></video>
 			</div>

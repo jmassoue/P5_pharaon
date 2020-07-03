@@ -3,7 +3,7 @@ const nbSlide = items.length;
 const suivant = document.querySelector('.right');
 const precedent = document.querySelector('.left');
 let i = 0;
-var time = 5000;
+var time = 3000;
 
 function slideSuivante(){
     items[i].classList.remove('active');
@@ -15,7 +15,7 @@ function slideSuivante(){
     }
 
     items[i].classList.add('active')
-    console.log(i);
+    
     
 }
 suivant.addEventListener('click', slideSuivante)
@@ -31,22 +31,15 @@ function slidePrecedente(){
     }
 
     items[i].classList.add('active')
-    // console.log(count);
+    
     
 }
 precedent.addEventListener('click', slidePrecedente)
 
-function changeImg(){
-    document.slide.src = items[i];
 
-    if (i < items.length - 1) {
-        i++;
-    } else {
-        i = 0;
-    }
-    setTimeout("changeImg()", time);
-}
-window.onload = changeImg;
+setInterval("slideSuivante()", time);
+
+
 
 
 function keyPress(e){
@@ -59,3 +52,4 @@ function keyPress(e){
     }
 }
 document.addEventListener('keydown', keyPress)
+
