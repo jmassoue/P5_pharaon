@@ -1,4 +1,4 @@
-<p> Refonte du site " Le Temple du Pharaon" - Développé dans le cadre de la formation de Développeur Web - OpenclassRoom <br/> Propriétaire : JM Dev <br/> Copyright 2018 - JM Dev </p>
+<script src="../../public/js/app.js"></script>
 
 <div>
     <h2>Horaires et adresse</h2>
@@ -19,3 +19,5 @@
         Mail : letemple.dupharaon@free.fr
     </p>
 </div>
+
+<p> Refonte du site " Le Temple du Pharaon" - Développé dans le cadre de la formation de Développeur Web - OpenclassRoom <br/> Propriétaire : JM Dev <br/>© Copyright 2018 - JM Dev </p>
