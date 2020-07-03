@@ -14,7 +14,7 @@
 
 <div class="container menu">
 		<nav class="nav justify-content-center nav-pills nav-justified">
-			 <a href="index.php" class="nav-link focus nav-item">Accueil</a>
+			 <a href="home.php" class="nav-link focus nav-item">Accueil</a>
 			 <a href="salon_de_thé.php" class="nav-link focus nav-item">Salon de Thé</a>
              <a href="view/frontend/menu.php" class="nav-link nav-item">Bar à Chicha</a>
              <a href="view/include/menu.php" class="nav-link focus nav-item">Boutique</a>

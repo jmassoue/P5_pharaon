@@ -11,7 +11,7 @@ body {
   padding: 50px;
 }
 
-.slider img {
+.slide img {
   max-width: 100%;
   display: none;
 }
@@ -40,4 +40,9 @@ img.active {
   font-size: 50px;
   margin: 0 15px;
   cursor: pointer;
+}
+
+.party video {
+    max-width: 100%;
+    padding:10px;
 }

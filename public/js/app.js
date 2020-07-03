@@ -3,7 +3,7 @@ const nbSlide = items.length;
 const suivant = document.querySelector('.right');
 const precedent = document.querySelector('.left');
 let i = 0;
-const time = 5000;
+var time = 5000;
 
 function slideSuivante(){
     items[i].classList.remove('active');
@@ -37,16 +37,15 @@ function slidePrecedente(){
 precedent.addEventListener('click', slidePrecedente)
 
 function changeImg(){
-    document.slider.src = nbSlide[i];
+    document.slide.src = items[i];
 
-    if (i < nbSlide.length - 1) {
+    if (i < items.length - 1) {
         i++;
     } else {
         i = 0;
     }
     setTimeout("changeImg()", time);
 }
-
 window.onload = changeImg;
 
 
