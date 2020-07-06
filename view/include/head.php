@@ -16,10 +16,11 @@
 		<nav class="nav justify-content-center nav-pills nav-justified">
 			 <a href="home.php" class="nav-link focus nav-item">Accueil</a>
 			 <a href="salon_de_thé.php" class="nav-link focus nav-item">Salon de Thé</a>
-             <a href="view/frontend/menu.php" class="nav-link nav-item">Bar à Chicha</a>
-             <a href="view/include/menu.php" class="nav-link focus nav-item">Boutique</a>
-             <a href="view/include/menu.php" class="nav-link focus nav-item">Contact</a>
-             <a href="view/include/menu.php" class="nav-link focus nav-item">Livre d'or</a>
-             <a href="view/include/log.php" class="nav-link focus nav-item">Connexion</a>
+             <a href="bar_a_chicha.php" class="nav-link nav-item">Bar à Chicha</a>
+             <a href="restauration.php" class="nav-link focus nav-item">Restauration</a>
+             <a href="boutique.php" class="nav-link focus nav-item">Boutique</a>
+             <a href="livre_dor.php" class="nav-link focus nav-item">Livre d'or</a>
+			 <a href="contact.php" class="nav-link focus nav-item">Contact</a>
+             <a href="log.php" class="nav-link focus nav-item">Connexion</a>
 		</nav>
 </div>
