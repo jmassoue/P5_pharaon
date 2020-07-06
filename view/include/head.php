@@ -12,15 +12,19 @@
 <title>Le Temple Du Pharaon</title>
 </head>
 
-<div class="container menu">
-		<nav class="nav justify-content-center nav-pills nav-justified">
-			 <a href="home.php" class="nav-link focus nav-item">Accueil</a>
-			 <a href="salon_de_thé.php" class="nav-link focus nav-item">Salon de Thé</a>
-             <a href="bar_a_chicha.php" class="nav-link nav-item">Bar à Chicha</a>
-             <a href="restauration.php" class="nav-link focus nav-item">Restauration</a>
-             <a href="boutique.php" class="nav-link focus nav-item">Boutique</a>
-             <a href="livre_dor.php" class="nav-link focus nav-item">Livre d'or</a>
-			 <a href="contact.php" class="nav-link focus nav-item">Contact</a>
-             <a href="log.php" class="nav-link focus nav-item">Connexion</a>
-		</nav>
+<div class="logo_menu">
+	<div class="container_menu">
+		<div id="logo">
+		<img src="../../public/images/logo.png" class="logo" alt="logo"/>
+		</div>
+			<nav class="nav justify-content-center nav-pills nav-justified">
+				<li><a href="home.php" class="nav-link focus nav-item">Accueil</a></li>
+				<li><a href="salon_de_thé.php" class="nav-link focus nav-item">Salon de Thé</a></li>
+				<li><a href="bar_a_chicha.php" class="nav-link nav-item">Bar à Chicha</a></li>
+				<li><a href="restauration.php" class="nav-link focus nav-item">Restauration</a></li>
+				<li><a href="boutique.php" class="nav-link focus nav-item">Boutique</a></li>
+				<li><a href="livre_dor.php" class="nav-link focus nav-item">Livre d'or</a></li>
+				<li><a href="log.php" class="nav-link focus nav-item">Connexion</a></li>
+			</nav>
+	</div>
 </div>

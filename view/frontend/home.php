@@ -9,10 +9,10 @@
 	</head>
 
 	<body>
-		<!--<img src="public/images/" alt="sucredansduthé" class="sugar_tea" col-lg-12"> -->
+		<div class="big_titre">
         <h1> Le Temple du Pharaon</h1>
             <p>Salon de thé, chicha & plats à Brest</p>
-		<br>
+		</div>
 
 		<div class="container">
 
@@ -87,7 +87,7 @@
 			</div>
 		</div>
 		<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1324.811081637734!2d-4.4888140000000005!3d48.386994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4816b959ee18dee3%3A0x4eac4b1af016f1aa!2s36%20Rue%20Jean%20Mac%C3%A9%2C%2029200%20Brest%2C%20France!5e0!3m2!1sfr!2sus!4v1593599346588!5m2!1sfr!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1324.811081637734!2d-4.4888140000000005!3d48.386994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4816b959ee18dee3%3A0x4eac4b1af016f1aa!2s36%20Rue%20Jean%20Mac%C3%A9%2C%2029200%20Brest%2C%20France!5e0!3m2!1sfr!2sus!4v1593599346588!5m2!1sfr!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
 		
 		<footer>
