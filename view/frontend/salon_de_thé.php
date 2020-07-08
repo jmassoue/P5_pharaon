@@ -9,7 +9,7 @@
 	</head>
 
 	<body>
-		<!--<img src="public/images/" alt="sucredansduthé" class="sugar_tea" col-lg-12"> -->
+		
         <h1>Salon de thé oriental</h1>
         <p>Le Temple du Pharaon à Brest</p>
 		<br>
