@@ -1,5 +1,6 @@
 <script src="../../public/js/app.js"></script>
 
+
 <div>
     <h2>Horaires et adresse</h2>
     </br>

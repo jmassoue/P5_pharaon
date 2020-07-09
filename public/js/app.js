@@ -1,4 +1,4 @@
-const items = document.querySelectorAll('img'); /* soucis */
+const items = document.querySelectorAll('.slide img'); 
 const nbSlide = items.length;
 const suivant = document.querySelector('.right');
 const precedent = document.querySelector('.left');

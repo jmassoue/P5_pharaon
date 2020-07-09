@@ -15,7 +15,7 @@
 <div class="logo_menu">
 	<div class="container_menu">
 		<div id="logo">
-		<!--<img src="../../public/images/logo_blanc.png" id="logo" alt="logo"/>-->
+		<img src="../../public/images/logo_blanc.png" id="logo" alt="logo"/>
 		</div>
 			<nav class="nav justify-content-center nav-pills nav-justified">
 				<li><a href="home.php" class="nav-link focus nav-item">Accueil</a></li>

@@ -9,9 +9,10 @@
 	</head>
 
 	<body>
-		
-        <h1>Salon de thé oriental</h1>
-        <p>Le Temple du Pharaon à Brest</p>
+        <div class="big_titre">
+            <h1>Salon de thé oriental</h1>
+            <p>Le Temple du Pharaon à Brest</p>
+        </div>
 		<br>
 
 		<div class="container">
