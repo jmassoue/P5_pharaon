@@ -47,7 +47,12 @@ img.active {
   cursor: pointer;
 }
 
-.container video {
+.container_video {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.container_video video {
   max-width: 100%;
   padding: 10px;
 
@@ -89,6 +94,7 @@ body {
   float: left;
   margin-right: 10%;
   display: flex;
+  
 }
 
 nav {
@@ -117,4 +123,31 @@ nav a {
 
 nav a:hover {
   color: #f29c53;
+}
+
+/* footer */
+#container_footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #002833;
+  color:white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  float: left;
+  margin-right: 10%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.fa-facebook {
+  color: white;
+  font-size: 25px;
+}
+
+.fa-instagram {
+  color: white;
+  font-size: 25px;
+  font
 }

@@ -32,6 +32,7 @@
 				<img class="active" src="../../public/images/page 5 boutique/tenues.png">
 				<img src="../../public/images/page 5 boutique/assiette.png">
 				<img src="../../public/images/page 5 boutique/bijoux.png">
+				<img src="../../public/images/page 5 boutique/tasse.png">
 			</div>
 
 		<div class="cont-btn">

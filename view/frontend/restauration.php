@@ -18,12 +18,9 @@
     <div class="container">
 
         <div class="slide">
-            <img class="active"
-                src="https://images.unsplash.com/photo-1559467713-f830ec30e3e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
-            <img
-                src="https://images.unsplash.com/photo-1590634875887-a6a516622e2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80">
-            <img
-                src="https://images.unsplash.com/photo-1590664216212-62e763768cae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+            <img class="active" src="../../public/images/page 4 restau/plats.png">
+            <img src="../../public/images/page 4 restau/mezze_oriental.png">
+            <img src="../../public/images/page 4 restau/mezze.png">
         </div>
 
         <div class="cont-btn">

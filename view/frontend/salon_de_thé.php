@@ -20,8 +20,11 @@
 			<div class="slide">
                 <img class="active" src="../../public/images/page salon de thé/patisseries.png">
 				<img src="../../public/images/page salon de thé/sucre.png">
-				<img src="../../public/images/page salon de thé/jus_frais.png">
-			</div>
+                <img src="../../public/images/page salon de thé/jus_frais.png">
+                <img src="../../public/images/page salon de thé/fruit_frais.png">
+                <img src="../../public/images/page salon de thé/patisserie.png">
+                <img src="../../public/images/page salon de thé/thé_main.png">
+            </div>
 
 		<div class="cont-btn">
 			<div class="btn-nav left">←</div>

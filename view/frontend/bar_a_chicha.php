@@ -21,6 +21,9 @@
             <img class="active" src="../../public/images/page 3 bar a chicha/chicha_or.png">
             <img src="../../public/images/page 3 bar a chicha/tube_rose.png">
             <img src="../../public/images/page 3 bar a chicha/cheminée.png">
+            <img src="../../public/images/page 3 bar a chicha/chicha_charbon.png">
+            <img src="../../public/images/page 3 bar a chicha/chicha_gold.png">
+            <img src="../../public/images/page 3 bar a chicha/chichas.png">
         </div>
 
         <div class="cont-btn">
