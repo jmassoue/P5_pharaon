@@ -70,8 +70,11 @@ body {
   padding-top: 105px;
   text-align: center;
 }
-
+header {
+  background-color: #002833;
+}
 /* header */
+/*
 .logo_menu {
   position: fixed;
   z-index: 100;
@@ -112,7 +115,7 @@ nav li {
   display: inline;
   padding-left: 8px;
   padding-right: 8px;
-}
+} */
 
 nav a {
   font-size: 20px;
@@ -123,7 +126,7 @@ nav a {
 
 nav a:hover {
   color: #f29c53;
-}
+} 
 
 /* footer */
 #container_footer {

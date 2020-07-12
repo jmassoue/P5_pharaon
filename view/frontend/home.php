@@ -4,98 +4,145 @@
 <!DOCTYPE html> <!-- view -->
 <html lang="fr">
 
-	<head>
-		<?php include("../include/head.php"); ?>
-	</head>
+<head>
+	<?php include("../include/head.php"); ?>
+</head>
 
-	<body>
-		<div class="big_titre">
-        <h1> Le Temple du Pharaon</h1>
-            <p>Salon de thé, chicha & plats à Brest</p>
-		</div>
-
-		<div class="container">
-
-			<div class="slide">
-				<img class="active" src="https://images.unsplash.com/photo-1559467713-f830ec30e3e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
-				<img src="https://images.unsplash.com/photo-1590634875887-a6a516622e2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80">
-				<img src="https://images.unsplash.com/photo-1590664216212-62e763768cae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+<body>
+	<header class="container-fuild">
+		<div class="row">
+			<div class="col-2 logo">
+				<img src="../../public/images/logo_blanc.png" id="logo" alt="logo" />
 			</div>
+			<nav class="nav justify-content-center nav-pills nav-justified flex-column flex-sm-row">
+				<!-- <576 px menu "hamburger" -->
+				<li class="col"><a href="home.php" class="nav-link focus nav-item">Accueil</a></li>
+				<li class="col"><a href="salon_de_thé.php" class="nav-link focus nav-item">Salon de Thé</a></li>
+				<li class="col"><a href="bar_a_chicha.php" class="nav-link nav-item">Bar à Chicha</a></li>
+				<li class="col"><a href="restauration.php" class="nav-link focus nav-item">Restauration</a></li>
+				<li class="col"><a href="boutique.php" class="nav-link focus nav-item">Boutique</a></li>
+				<li class="col"><a href="livre_dor.php" class="nav-link focus nav-item">Livre d'or</a></li>
+				<li class="col"><a href="log.php" class="nav-link focus nav-item">Connexion</a></li>
+			</nav>
+		</div>
+	</header>
+	<div class="big_titre">
+		<h1> Le Temple du Pharaon</h1>
+		<p>Salon de thé, chicha & plats à Brest</p>
+	</div>
+
+	<div class="container">
+
+		<div class="slide">
+			<img class="active" src="../../public/images/accueil/salon_the.png">
+			<img src="../../public/images/accueil/vue_salon.png">
+			<img src="../../public/images/accueil/salon.png">
+			<img src="../../public/images/accueil/narguilés.png">
+			<img src="../../public/images/accueil/mezzes.png">
+
+		</div>
 
 		<div class="cont-btn">
 			<div class="btn-nav left">←</div>
 			<div class="btn-nav right">→</div>
 		</div>
 
-		</div>
+	</div>
 
-		<div class='présentation'>
-			<h2>Le Temple Du Pharaon</h2>
-			<h3>Un lieu atypik à Brest</h3>
+	<div class='présentation'>
+		<h2>Le Temple Du Pharaon</h2>
+		<h3>Un lieu atypik à Brest</h3>
 
-			<p>Situé depuis 15 ans au plein cœur du centre ville de Brest, Le Temple Du Pharaon est un lieu unique sur le Nord Finistère. Son propriétaire, Mamdouh, vous reçoit dans une ambiance familiale et décontractée inspirée de son pays d’origine. La décoration traditionnelle et l’aménagement intérieur vous transporte instantanément en Egypte.</p>
-			
-			<p>Un grand choix de narguilés, une carte de thés aux saveurs d’Orient, des mezzés … L’ensemble de la carte est concoctée par Mamdouh à partir de produits bios soigneusement sélectionnés par ses soins.</p>
-			
-			<p>Le Temple du Pharaon organise régulièrement des soirées de danses orientales, musiques ainsi que récitation de contes. Il est aussi possible d’y organiser des soirées privées pour vos anniversaires, EVJF/EVG …</p>
-		</div>
-		
-		<div class="la_carte">
-			
-			<h3>Notre carte</h3>
-			<h4>aux saveurs orientales</h4>
-			<p>En cette période de déconfinement, Le Temple Du Pharaon situé à Brest se ré-invente.  Vous pouvez à présent commander à emporter l’ensemble de notre carte : cocktails, thés, boissons chaudes, pâtisseries, narguilés …  Tous nos ingrédients sont bios et préparés avec soins par Mamdouh.</p>
-		
+		<p>Situé depuis 15 ans au plein cœur du centre ville de Brest, Le Temple Du Pharaon est un lieu unique sur le
+			Nord Finistère. Son propriétaire, Mamdouh, vous reçoit dans une ambiance familiale et décontractée inspirée
+			de son pays d’origine. La décoration traditionnelle et l’aménagement intérieur vous transporte
+			instantanément en Egypte.</p>
+
+		<p>Un grand choix de narguilés, une carte de thés aux saveurs d’Orient, des mezzés … L’ensemble de la carte est
+			concoctée par Mamdouh à partir de produits bios soigneusement sélectionnés par ses soins.</p>
+
+		<p>Le Temple du Pharaon organise régulièrement des soirées de danses orientales, musiques ainsi que récitation
+			de contes. Il est aussi possible d’y organiser des soirées privées pour vos anniversaires, EVJF/EVG …</p>
+	</div>
+
+	<div class="la_carte">
+
+		<h3>Notre carte</h3>
+		<h4>aux saveurs orientales</h4>
+		<p>En cette période de déconfinement, Le Temple Du Pharaon situé à Brest se ré-invente. Vous pouvez à présent
+			commander à emporter l’ensemble de notre carte : cocktails, thés, boissons chaudes, pâtisseries, narguilés …
+			Tous nos ingrédients sont bios et préparés avec soins par Mamdouh.</p>
+
 		<div class="portfolio_carte">
 			<div>
 				<h3>Le salon de thé</h3>
-				<p>Boissons chaudes ou froides, cocktails de fruits, bières, milkshakes… Mamdou met un point d’honneur à vous servir des boissons à base produit frais et bios. Laissez-vous emporter par des saveurs orientales telles qu’un smoothie à la mangue ou un thé à la crème de rose.</p>
-			</div>	
+				<p>Boissons chaudes ou froides, cocktails de fruits, bières, milkshakes… Mamdou met un point d’honneur à
+					vous servir des boissons à base produit frais et bios. Laissez-vous emporter par des saveurs
+					orientales telles qu’un smoothie à la mangue ou un thé à la crème de rose.</p>
+			</div>
 			<div>
 				<h3>Les mezzés</h3>
-				<p>Le Temple du Pharaon vous propose de vous restaurer le soir. Nous vous proposons chaque jours des mezzés 100% fait maison et composés de produits frais. Chacun de nos plats est agrémenté de saveurs orientales.</p>
+				<p>Le Temple du Pharaon vous propose de vous restaurer le soir. Nous vous proposons chaque jours des
+					mezzés 100% fait maison et composés de produits frais. Chacun de nos plats est agrémenté de saveurs
+					orientales.</p>
 			</div>
 			<div>
 				<h3>Les narguilés</h3>
-				<p>Nous vous proposons un large choix de saveurs de narguilé. Toujours avec à l’esprit l’envie de vous fournir des produits de qualité, nous utilisons du charbon naturel pour nos chichas. Vous pouvez aussi acheter votre chicha dans notre boutique.</p>
+				<p>Nous vous proposons un large choix de saveurs de narguilé. Toujours avec à l’esprit l’envie de vous
+					fournir des produits de qualité, nous utilisons du charbon naturel pour nos chichas. Vous pouvez
+					aussi acheter votre chicha dans notre boutique.</p>
 			</div>
 		</div>
-				
+
 		<div class='emporter'>
 			<h2>Vos chichas et toute la carte</h2>
 			<h3>à emporter dès le 3 juin 2020 sur Brest</h3>
 
-			
+
 			<div class='p1'>
 				<h3>27.00 euros</h3>
 				<h4>location chicha avec tabac</h4>
-					<p>Récupérez votre chicha de 17h00 à 23h00 pour un retour entre 15h00 et 17h00 le lendemain. Pour 27€ nous vous fournissons la chicha avec 3 charbons et le tabac.</p>
+				<p>Récupérez votre chicha de 17h00 à 23h00 pour un retour entre 15h00 et 17h00 le lendemain. Pour 27€
+					nous vous fournissons la chicha avec 3 charbons et le tabac.</p>
 			</div>
 			<div class='p2'>
 				<h3>20.00 euros</h3>
 				<h4>location chicha sans tabac</h4>
-					<p>Récupérez votre chicha de 17h00 à 23h00 pour un retour entre 15h00 et 17h00 le lendemain. Pour 20€ nous vous fournissons une chicha mais sans tabac ni charbon.</p>
+				<p>Récupérez votre chicha de 17h00 à 23h00 pour un retour entre 15h00 et 17h00 le lendemain. Pour 20€
+					nous vous fournissons une chicha mais sans tabac ni charbon.</p>
 			</div>
 		</div>
+
 		<h2>Découvrez nos soirées</h2>
 		<h3>danses, musiques et contes</h3>
+
 		<div class="container_video">
 			<div class="slide_video">
-				<video class='danse' src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-danse-oriental-le-temple-du-pharaon-Brest.mp4" controls controlslist="nodownload"></video>
+				<video class='danse'
+					src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-danse-oriental-le-temple-du-pharaon-Brest.mp4"
+					controls controlslist="nodownload"></video>
 			</div>
 			<div class="slide_video">
-				<video class='groupe' src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-musique-le-temple-du-pharaon-brest.mp4" controls controlslist="nodownload"></video>
+				<video class='groupe'
+					src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-musique-le-temple-du-pharaon-brest.mp4"
+					controls controlslist="nodownload"></video>
 			</div>
 			<div class="slide_video">
-				<video class='conte' src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-contes-le-temple-du-pharaon-brest.mp4#t=,30" controls controlslist="nodownload"></video>
+				<video class='conte'
+					src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-contes-le-temple-du-pharaon-brest.mp4#t=,30"
+					controls controlslist="nodownload"></video>
 			</div>
 		</div>
 		<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1324.811081637734!2d-4.4888140000000005!3d48.386994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4816b959ee18dee3%3A0x4eac4b1af016f1aa!2s36%20Rue%20Jean%20Mac%C3%A9%2C%2029200%20Brest%2C%20France!5e0!3m2!1sfr!2sus!4v1593599346588!5m2!1sfr!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1324.811081637734!2d-4.4888140000000005!3d48.386994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4816b959ee18dee3%3A0x4eac4b1af016f1aa!2s36%20Rue%20Jean%20Mac%C3%A9%2C%2029200%20Brest%2C%20France!5e0!3m2!1sfr!2sus!4v1593599346588!5m2!1sfr!2sus"
+				width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+				tabindex="0"></iframe>
 		</div>
-		
+
 		<footer>
 			<?php include("../include/footer.php"); ?>
 		</footer>
-	</body>
+</body>
+
 </html>
