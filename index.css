@@ -63,6 +63,7 @@ img.active {
 
 body {
   background-image: url("fond.jpg");
+  width: 100%;
 
 }
 
@@ -72,30 +73,9 @@ body {
 }
 
 /* header */
-/*
-.logo_menu {
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  top: 0%;
+
+header {
   background-color: #002833;
-  left: 0;
-
-}
-
-.container_menu {
-  height: 70px;
-  max-width: 80%;
-  margin: auto;
-  width: 100%;
-  align-items: center;
-}
-
-#logo {
-  float: left;
-  margin-right: 10%;
-  display: flex;
-  
 }
 
 nav {
@@ -110,10 +90,8 @@ nav ul {
 
 nav li {
   margin-right: 18px;
-  display: inline;
-  padding-left: 8px;
-  padding-right: 8px;
-} */
+  
+} 
 
 nav a {
   font-size: 20px;
@@ -122,9 +100,6 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #f29c53;
-} 
 
 /* footer */
 #container_footer {

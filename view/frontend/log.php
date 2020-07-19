@@ -35,46 +35,35 @@
             </nav>
         </div>
     </header>
-    <div class="containerLog">
-        <h1 class="justify-content-center title">Connexion</h1>
-        <div class="loginPage">
-            <div class="offset-md-2 col-md-4 logMember justify-content-center">
-                <form action="index.php?action=log" method="post">
-                    <p>
-                        Espace membre
-                        <br />
-                    </p>
-                    <label for="memberForm">Identifiant</label>
-                    <br />
-                    <input type="text" name="pseudo" placeholder="Utilisateur" width="30%" required>
-                    <br />
-                    <label for="mdpForm">Mot de passe</label>
-                    <br />
-                    <input type="password" name="password" placeholder="********" required>
-                    <br />
-                    <input type="submit" value="Connexion">
-                </form>
-            </div>
-            <div class="logNewUser offset-md-2 col-md-4 row">
-                <form action="index.php?action=newMember" method="post">
-                    <p>
-                        Inscription
-                    </p>
-                    <label for="newUser">
-                        Identifiant
-                        <br />
-                        <input type="text" placeholder="Identifiant" name="pseudo" id="newUser" required />
-                        <br />
-                        <label for="newUserMdp">Mot de passe</label>
-                        <br />
-                        <input type="password" placeholder="********" id="newUserMdp" name="password" required />
-                        <br />
-                        <input type="submit" value="S'inscrire" />
-                    </label>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h3>Notes</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="timeInput">Temps :</label>
+                        <input type="text" class="form-control" id="timeInput" placeholder="mm:ss"
+                            aria-describedby="timeHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="note">Note :</label>
+                        <textarea id="note" rows="5" class="form-control" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Rendre cette notation publique
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
                 </form>
             </div>
         </div>
     </div>
+
     <footer>
         <?php include("../include/footer.php"); ?>
     </footer>

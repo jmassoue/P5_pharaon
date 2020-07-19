@@ -9,18 +9,15 @@
 </head>
 
 <body>
+
 	<header class="container-fuild">
 		<div class="row">
-			<nav class="col navbar navbar-expand-lg bg-dark navbar-dark">
-				<img class="navbar-brand" src="../../public/images/logo_blanc.png" id="logo" alt="logo" />
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+			<nav class="col navbar navbar-expand-lg navbar-dark">
+				<img class="navbar-brand" src="../../public/images/logo_blanc.png" alt="logo" />
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">>
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<!--<div class="col-2 logo">
-				<img src="../../public/images/logo_blanc.png" id="logo" alt="logo" />
-			</div>-->
-				<!--<nav class="navbar navbar-expand justify-content-center nav-pills nav-justified flex-column flex-sm-row">
-				 <576 px menu "hamburger" -->
 				<div id="navbarContent" class="collapse navbar-collapse">
 					<ul class="navbar-nav">
 						<li class="nav-item active">
@@ -49,9 +46,10 @@
 			</nav>
 		</div>
 	</header>
-	<div class="jumbotron">
-		<h1> Le Temple du Pharaon</h1>
-		<p>Salon de thé, chicha & plats à Brest</p>
+
+	<div>
+		<h1 class="text-center text-sm-center"> Le Temple du Pharaon</h1>
+		<p class="h2 text-center text-sm-center">Salon de thé, chicha & plats à Brest</p>
 	</div>
 
 	<div class="container">
@@ -73,8 +71,8 @@
 	</div>
 
 	<div class='présentation'>
-		<h2>Le Temple Du Pharaon</h2>
-		<h3>Un lieu atypik à Brest</h3>
+		<h2 class=" text-center text-sm-center">Le Temple Du Pharaon</h2>
+		<h3 class="text-center text-sm-center">Un lieu atypik à Brest</h3>
 
 		<p>Situé depuis 15 ans au plein cœur du centre ville de Brest, Le Temple Du Pharaon est un lieu unique sur le
 			Nord Finistère. Son propriétaire, Mamdouh, vous reçoit dans une ambiance familiale et décontractée inspirée
@@ -90,47 +88,63 @@
 
 	<div class="la_carte">
 
-		<h3>Notre carte</h3>
-		<h4>aux saveurs orientales</h4>
+		<h3 class="text-center text-sm-center">Notre carte</h3>
+		<h4 class="text-center text-sm-center">aux saveurs orientales</h4>
 		<p>En cette période de déconfinement, Le Temple Du Pharaon situé à Brest se ré-invente. Vous pouvez à présent
 			commander à emporter l’ensemble de notre carte : cocktails, thés, boissons chaudes, pâtisseries, narguilés …
 			Tous nos ingrédients sont bios et préparés avec soins par Mamdouh.</p>
 
-		<div class="portfolio_carte">
-			<div class="card">
-				<div class="card-body">
-					<h3 class="card-title">Le salon de thé</h3>
-					<p class="card-text">Boissons chaudes ou froides, cocktails de fruits, bières, milkshakes… Mamdou
-						met un point d’honneur à
-						vous servir des boissons à base produit frais et bios. Laissez-vous emporter par des saveurs
-						orientales telles qu’un smoothie à la mangue ou un thé à la crème de rose.</p>
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<div class="card">
+					<img class="card-img-top" src="../../public/images/accueil/salon_the_300.png">
+					<div class="card-body">
+						<h3 class="card-title">Le salon de thé</h3>
+						<p class="card-text">Boissons chaudes ou froides, cocktails de fruits, bières, milkshakes…
+							Mamdou
+							met un point d’honneur à
+							vous servir des boissons à base produit frais et bios. Laissez-vous emporter par des saveurs
+							orientales telles qu’un smoothie à la mangue ou un thé à la crème de rose.</p>
+					</div>
 				</div>
-				<div class="card-body">
-					<h3 class="card-title">Les mezzés</h3>
-					<p class="card-text">Le Temple du Pharaon vous propose de vous restaurer le soir. Nous vous
-						proposons chaque jours des
-						mezzés 100% fait maison et composés de produits frais. Chacun de nos plats est agrémenté de
-						saveurs
-						orientales.</p>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="card">
+					<img class="card-img-top" src="../../public/images/accueil/mezzes_300.png">
+					<div class="card-body">
+						<h3 class="card-title">Les mezzés</h3>
+						<p class="card-text">Le Temple du Pharaon vous propose de vous restaurer le soir. Nous vous
+							proposons chaque jours des
+							mezzés 100% fait maison et composés de produits frais. Chacun de nos plats est agrémenté de
+							saveurs
+							orientales.</p>
+					</div>
 				</div>
-				<div class="card-body">
-					<h3 class="card-title">Les narguilés</h3>
-					<p class="card-text">Nous vous proposons un large choix de saveurs de narguilé. Toujours avec à
-						l’esprit l’envie de
-						vous
-						fournir des produits de qualité, nous utilisons du charbon naturel pour nos chichas. Vous pouvez
-						aussi acheter votre chicha dans notre boutique.</p>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="card">
+					<img class="card-img-top" src="../../public/images/accueil/narguilés_300.png">
+					<div class="card-body">
+						<h3 class="card-title">Les narguilés</h3>
+						<p class="card-text">Nous vous proposons un large choix de saveurs de narguilé. Toujours avec à
+							l’esprit l’envie de
+							vous
+							fournir des produits de qualité, nous utilisons du charbon naturel pour nos chichas. Vous
+							pouvez
+							aussi acheter votre chicha dans notre boutique.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-			<div class='emporter'>
-				<h2>Vos chichas et toute la carte</h2>
-				<h3>à emporter dès le 3 juin 2020 sur Brest</h3>
+		<div class="text-center text-sm-center emporter">
+			<h2 class="text-center text-sm-center">Vos chichas et toute la carte</h2>
+			<h3 class="text-center text-sm-center">à emporter dès le 3 juin 2020 sur Brest</h3>
 
 			<div class="card">
 				<div class="card-body">
 					<h3 class="card-title">27.00 euros</h3>
-					<p class="card-text">Location chicha avec tabac : Récupérez votre chicha de 17h00 à 23h00 pour un
+					<p class="card-text text-center text-sm-center">Location chicha avec tabac : Récupérez votre chicha
+						de 17h00 à 23h00 pour un
 						retour entre 15h00 et 17h00 le lendemain. Pour
 						27€
 						nous vous fournissons la chicha avec 3 charbons et le tabac.</p>
@@ -149,18 +163,18 @@
 			<h3>danses, musiques et contes</h3>
 
 			<div class="container_video">
-				<div class="slide_video">
-					<video class='danse'
+				<div class="embed-responsive-16by9 slide_video">
+					<video class="embed-responsive-item"
 						src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-danse-oriental-le-temple-du-pharaon-Brest.mp4"
 						controls controlslist="nodownload"></video>
 				</div>
-				<div class="slide_video">
-					<video class='groupe'
+				<div class="embed-responsive-16by9 slide_video">
+					<video class="embed-responsive-item"
 						src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-musique-le-temple-du-pharaon-brest.mp4"
 						controls controlslist="nodownload"></video>
 				</div>
-				<div class="slide_video">
-					<video class='conte'
+				<div class="embed-responsive-16by9 slide_video">
+					<video class="embed-responsive-item"
 						src="https://www.letemple-dupharaon.fr/wp-content/uploads/2020/06/soiree-contes-le-temple-du-pharaon-brest.mp4#t=,30"
 						controls controlslist="nodownload"></video>
 				</div>

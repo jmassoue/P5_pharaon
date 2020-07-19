@@ -28,7 +28,7 @@
     </header>
     <div class="big_titre">
         <h1>Restauration - Mezzes</h1>
-        <p>Le Temple du Pharaon à Brest</p>
+        <p class="h2">Le Temple du Pharaon à Brest</p>
     </div>
     <br>
 
