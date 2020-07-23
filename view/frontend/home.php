@@ -36,7 +36,7 @@
 								<a href="boutique.php" class="nav-link">Boutique</a>
 							</li>
 							<li class="nav-item">
-								<a href="livre_dor.php" class="nav-link">Livre d'or</a>
+								<a href="livre_d_or.php" class="nav-link">Livre d'or</a>
 							</li>
 							<li class="nav-item">
 								<a href="log.php" class="nav-link">Connexion</a>
