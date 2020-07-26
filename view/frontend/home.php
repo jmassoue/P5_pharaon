@@ -99,7 +99,7 @@
 				présent
 				commander à emporter l’ensemble de notre carte : cocktails, thés, boissons chaudes, pâtisseries,
 				narguilés …
-				Tous nos ingrédients sont bios et préparés avec soins par Mamdouh.</p>
+				</p>
 
 			<div class="row">
 				<div class="col-12 col-lg-4">
@@ -107,12 +107,10 @@
 						<img class="card-img-top" src="../../public/images/accueil/salon_the_300.png">
 						<div class="card-body">
 							<h3 class="card-title">Le salon de thé</h3>
-							<p class="card-text">Boissons chaudes ou froides, cocktails de fruits, bières, milkshakes…
-								Mamdou
-								met un point d’honneur à
-								vous servir des boissons à base produit frais et bios. Laissez-vous emporter par des
-								saveurs
-								orientales telles qu’un smoothie à la mangue ou un thé à la crème de rose.</p>
+							<p class="card-text">Boissons chaudes ou froides à base de produit frais et bios, cocktails
+								de fruits,milkshakes…
+								Laissez-vous emporter par des saveurs orientales telles qu’un smoothie à la mangue ou un
+								thé à la crème de rose.</p>
 						</div>
 					</div>
 				</div>
@@ -135,14 +133,8 @@
 						<img class="card-img-top" src="../../public/images/accueil/narguilés_300.png">
 						<div class="card-body">
 							<h3 class="card-title">Les narguilés</h3>
-							<p class="card-text">Nous vous proposons un large choix de saveurs de narguilé. Toujours
-								avec à
-								l’esprit l’envie de
-								vous
-								fournir des produits de qualité, nous utilisons du charbon naturel pour nos chichas.
-								Vous
-								pouvez
-								aussi acheter votre chicha dans notre boutique.</p>
+							<p class="card-text">Nous vous proposons un large choix de saveurs de narguilé, nous utilisons du charbon naturel pour nos chichas.
+								Vous pouvez aussi acheter votre chicha dans notre boutique.</p>
 						</div>
 					</div>
 				</div>
@@ -150,7 +142,7 @@
 		</div>
 		<div class="text-center text-sm-center emporter">
 			<h2 class="text-center text-sm-center">Vos chichas et toute la carte</h2>
-			<h3 class="text-center text-sm-center">à emporter dès le 3 juin 2020 sur Brest</h3>
+			<h3 class="text-center text-sm-center">à emporter depuis le 3 juin 2020 sur Brest</h3>
 
 			<div class="card">
 				<div class="card-body">

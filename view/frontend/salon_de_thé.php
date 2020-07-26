@@ -102,7 +102,7 @@
             <div class="boisson">
                 <h4>Cocktails :</h4>
 
-                <li>Cléopatra => fraise,pomme, vanille.</li>
+                <li>Cléopatra => fraise, pomme, vanille.</li>
                 <li>Héfertiti => fraise, cassonade, eau de rose, perrier.</li>
 
                 <p>Nous avons une dizaine de cocktails à notre carte, tous à base de fruits frais, préparés devant vous.

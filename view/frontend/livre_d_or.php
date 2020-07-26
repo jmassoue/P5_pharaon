@@ -46,6 +46,26 @@
                 </nav>
             </div>
         </header>
+        <div _ngcontent-naw-c35 id="goldenPage" class="containerContact" style="opacity: 1;">
+            <div _ngcontent-naw-c35 class="allBloc">
+                <p _ngcontent-naw-c35>
+                    "Livre d'Or - Laissez un avis sur le Temple du Pharaon"
+                </p>
+                <form _ngcontent-naw-c35 novalidate class="ng-pristine ng-invalid ng-touched">
+                    <div _ngcontent-naw-c35 class="spaceBetween">
+                        <input _ngcontent-naw-c35 type="text" name="nom" placeholder="*Nom" formcontrolname="name" required class="ng-untouched ng-pristine ng-invalid">
+                        <input _ngcontent-naw-c35 type="email" name="email" placeholder="Email" formcontrolname="email" class="ng-untouched ng-pristine ng-invalid">
+                    </div>
+                    <textarea _ngcontent-naw-c35 name="message" id_cols="30" rows="10" placeholder="*Message" formcontrolname="message" required class="ng-untouched ng-pristine ng-invalid">
+                    <div _ngcontent-naw-c35 class="spaceBetween">
+                        <input _ngcontent-naw-c35 type="text" formcontrolname="antispam" placeholder="*1 + 1 = " required class="antispam ng-untouched ng-pristine ng-invalid">
+                        <input _ngcontent-naw-c35 type="submit" name="envoyer" value="Envoyer" class="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--      
         <h1><?= htmlspecialchars($postViewId['title']) ?></h1>
         <div class="containerNew">
             <h3>
@@ -82,7 +102,7 @@
                 </form>
             </div>
             <div class="offset-lg-2 comment">
-                <?php while($comment = $commentsId->fetch()):?>
+                */<?php while($comment = $commentsId->fetch()):?>
 
                 <h2>Commentaires</h2>
                 <p><strong><?= htmlspecialchars($comment['author']) ?></strong></p>
@@ -92,7 +112,7 @@
 
                 <?php endwhile; ?>
             </div>
-        </div>
+        </div>-->
         <footer>
             <?php include("../include/footer.php"); ?>
         </footer>
