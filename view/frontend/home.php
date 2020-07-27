@@ -99,7 +99,7 @@
 				présent
 				commander à emporter l’ensemble de notre carte : cocktails, thés, boissons chaudes, pâtisseries,
 				narguilés …
-				</p>
+			</p>
 
 			<div class="row">
 				<div class="col-12 col-lg-4">
@@ -133,40 +133,59 @@
 						<img class="card-img-top" src="../../public/images/accueil/narguilés_300.png">
 						<div class="card-body">
 							<h3 class="card-title">Les narguilés</h3>
-							<p class="card-text">Nous vous proposons un large choix de saveurs de narguilé, nous utilisons du charbon naturel pour nos chichas.
+							<p class="card-text">Nous vous proposons un large choix de saveurs de narguilé, nous
+								utilisons du charbon naturel pour nos chichas.
 								Vous pouvez aussi acheter votre chicha dans notre boutique.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="text-center text-sm-center emporter">
-			<h2 class="text-center text-sm-center">Vos chichas et toute la carte</h2>
-			<h3 class="text-center text-sm-center">à emporter depuis le 3 juin 2020 sur Brest</h3>
+		<div class="text-center text-sm-center location">
+			<h3 class="text-center text-sm-center">Narguilés en location</h3>
 
-			<div class="card">
-				<div class="card-body">
-					<h3 class="card-title">27.00 euros</h3>
-					<p class="card-text text-center text-sm-center">Location chicha avec tabac : Récupérez votre
-						chicha
-						de 17h00 à 23h00 pour un
-						retour entre 15h00 et 17h00 le lendemain. Pour
-						27€
-						nous vous fournissons la chicha avec 3 charbons et le tabac.</p>
+			<div class="row">
+				<div class="col-12 col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="../../public/images/page 3 bar a chicha/chicha_or.png">
+						<div class="card-body">
+							<h3 class="card-title">27.00 euros</h3>
+							<p class="card-text text-center text-sm-center">
+							Location chicha avec tabac : Récupérez votre chicha de 17h00 à 23h00 pour un retour entre 15h00 et 17h00 le lendemain. 
+							</br>
+							Pour 27€ nous vous fournissons la chicha avec 3 charbons et le tabac.
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="card-body">
-					<h3 class="card-title">20.00 euros</h3>
+				<div class="col-12 col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="../../public/images/page 3 bar a chicha/chichas.png">
+						<div class="card-body">
+							<h3 class="card-title">Vos chichas et toute la carte</h3>
+							<p class="card-text text-center text-sm-center">
+								à emporter depuis le 3 juin 2020 sur Brest
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="card">
+						<img class="card-img-top" src="../../public/images/page 3 bar a chicha/chicha_gold.png">
+						<div class="card-body">
+							<h3 class="card-title">20.00 euros</h3>
 
-					<p class="card-text">Location chicha sans tabac : Récupérez votre chicha de 17h00 à 23h00 pour
-						un
-						retour entre 15h00 et 17h00 le lendemain. Pour
-						20€
-						nous vous fournissons une chicha mais sans tabac ni charbon.</p>
+							<p class="card-text">Location chicha sans tabac : Récupérez votre chicha de 17h00 à 23h00 pour un retour entre 15h00 et 17h00 le lendemain.
+								</br> 
+								Pour 20€ nous vous fournissons une chicha mais sans tabac ni charbon.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<h2>Découvrez nos soirées</h2>
-		<h3>danses, musiques et contes</h3>
+		<h2 class="text-center text-sm-center">Découvrez nos soirées</h2>
+		<h3 class="text-center text-sm-center">danses, musiques et contes</h3>
 
 		<div class="container_video">
 			<div class="embed-responsive-16by9 slide_video">
