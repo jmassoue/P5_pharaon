@@ -11,40 +11,34 @@
 <body>
     <div class="container-fluid">
         <header>
-            <div class="row">
-                <nav class="col navbar navbar-expand-lg navbar-dark">
-                    <img class="navbar-brand" src="../../public/images/logo_blanc.png" alt="logo" />
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">>
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div id="navbarContent" class="collapse navbar-collapse">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a href="home.php" class="nav-link">Accueil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="salon_de_thé.php" class="nav-link">Salon de Thé</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="bar_a_chicha.php" class="nav-link">Bar à Chicha</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="restauration.php" class="nav-link">Restauration</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="boutique.php" class="nav-link">Boutique</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="livre_d_or.php" class="nav-link">Livre d'or</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="log.php" class="nav-link">Connexion</a>
-                            </li>
-                        </ul>
+            <header>
+
+                <nav class="navbar navbar-light navbar-expand-md">
+                    <div class="container-fluid"><img id="logo-site" src="../../public/images/logo_blanc.png"
+                            alt="logo"><a class="navbar-brand" href="/P5/index.php"></a>
+                        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navcol-1">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item" role="presentation"><a class="nav-link"
+                                        href="/P5/index.php">Accueil</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link"
+                                        href="/P5/index.php?action=teaRoom">Salon de Thé</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link"
+                                        href="/P5/index.php?action=chicha">Bar à chicha</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link"
+                                        href="/P5/index.php?action=eat">Restauration</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link"
+                                        href="/P5/index.php?action=shop">Boutique</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link"
+                                        href="/P5/index.php?action=goldenBook">Livre d'Or</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
-            </div>
+
+            </header>
         </header>
         <div class="big_titre">
             <h1>Salon de thé oriental</h1>
